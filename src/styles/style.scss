@@ -1,8 +1,8 @@
-@import 'base/reset';
-@import 'base/typography';
-
 @import 'utils/variables.scss';
 @import 'utils/mixins.scss';
+
+@import 'base/reset';
+@import 'base/typography';
 
 @import 'components/ResultsSummaryCard.scss';
 @import 'components/Results.scss';
