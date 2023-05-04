@@ -1,10 +1,17 @@
 // Colors
 
 // Primary
-$primary-light-red: hsla(0, 100%, 67%, 0.1);
-$primary-orangey-yellow: hsla(39, 100%, 56%, 0.1);
-$primary-green-teal: hsla(166, 100%, 37%, 0.1);
-$primary-cobalt-blue: hsla(234, 85%, 45%, 0.1);
+$primary-light-red: hsla(0, 100%, 67%);
+$primary-orangey-yellow: hsla(39, 100%, 56%);
+$primary-green-teal: hsla(166, 100%, 37%);
+$primary-cobalt-blue: hsla(234, 85%, 45%);
+
+// Primary opacity
+$primary-light-red-opacity: hsla(0, 100%, 67%, 0.1);
+$primary-orangey-yellow-opacity: hsla(39, 100%, 56%, 0.1);
+$primary-green-teal-opacity: hsla(166, 100%, 37%, 0.1);
+$primary-cobalt-blue-opacity: hsla(234, 85%, 45%, 0.1);
+
 // Neutral
 $neutral-white: hsl(0, 0%, 100%);
 $neutral-pale-blue: hsl(221, 100%, 96%);
