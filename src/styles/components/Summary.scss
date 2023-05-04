@@ -1,0 +1,100 @@
+.Summary {
+  max-width: 500px;
+  min-width: 320px;
+  padding: 1.5em;
+  background: $neutral-white;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+  &-heading2 {
+    font-size: 1.1em ;
+  }
+
+  // List
+  &-list {
+    max-height: 40vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  &-item {
+    padding: 1em;
+    list-style: none;
+    border-radius: 8px;
+
+    &--colorRed {
+      background: $primary-light-red-opacity;
+    }
+    &--colorYellow {
+      background: $primary-orangey-yellow-opacity;
+    }
+    &--colorTeal {
+      background: $primary-green-teal-opacity;
+    }
+    &--colorBlue {
+      background: $primary-cobalt-blue-opacity;
+    }
+  }
+
+  &-itemContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-itemName {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+  }
+
+  &-itemIcon {
+    max-width: 20px;
+    aspect-ratio: 1/1;
+  }
+
+  &-summaryName {
+    &--colorRed {
+      color: $primary-light-red;
+    }
+    &--colorYellow {
+      color: $primary-orangey-yellow;
+    }
+    &--colorTeal {
+      color: $primary-green-teal;
+    }
+    &--colorBlue {
+      color: $primary-cobalt-blue;
+    }
+  }
+
+  &-itemScore {
+    color: $neutral-dark-gray-blue;
+  }
+
+  &-scoreSpan {
+    display: inline;
+    opacity: 0.5;
+    font-weight: 800;
+    
+    &--opacityFull {
+      opacity: 1;
+    }
+  }
+
+  // Button
+
+  &-button {
+    padding: 1em 1.5em;
+    border-radius: 32px;
+    border: none;
+    color: $neutral-white;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: 700;
+    background: $neutral-dark-gray-blue;
+  }
+}
