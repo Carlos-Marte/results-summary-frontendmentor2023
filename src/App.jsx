@@ -1,5 +1,7 @@
+import { ResultsSummaryCard } from './components/ResultsSummary/ResultsSummaryCard'
+
 export const App = () => {
   return (
-    <div>App</div>
+    <ResultsSummaryCard />
   )
 }
