@@ -3,7 +3,7 @@ import { Summary } from './Summary'
 
 export const ResultsSummaryCard = () => {
   return (
-    <section>
+    <section className='ResultsSummaryCard'>
       <Results />
       <Summary />
     </section>

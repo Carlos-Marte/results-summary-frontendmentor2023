@@ -26,7 +26,7 @@
     background: $gradient-circle;
     max-width: 50%;
     margin: 0 auto;
-    padding: 2em 2.5em;
+    padding: 3em 3.5em;
     aspect-ratio: 1/1;
     border-radius: 50%;
     display: flex;
@@ -38,6 +38,46 @@
   &-spanBig {
     font-size: 3.5em;
     font-weight: 800;
+  }
+
+  @media only screen and (min-width: $min-width) {
+    
+    justify-content: center;
+    border-radius: 25px;
+    height: 500px;
+
+    &-paragraph {
+      font-size: 1.2em;
+
+      &--sizeMQ {
+        font-size: 1.1em;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 1em;
+      }
+
+      &--sizeSmallMQ {
+        font-size: 1em;
+      }
+
+      &--whiteSpace {
+        white-space: nowrap;
+      }
+    }
+
+    &-heading2 {
+      font-size: 1.7em;
+    }
+
+    // Score
+    &-score {
+      padding: 5em 5.5em;
+    }
+
+    &-spanBig {
+      font-size: 3.5em;
+    }
+
   }
 }
 

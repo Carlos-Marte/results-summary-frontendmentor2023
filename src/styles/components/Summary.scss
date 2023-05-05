@@ -89,6 +89,7 @@
   // Button
 
   &-button {
+    margin-top: 1em;
     padding: 1em 1.5em;
     border-radius: 32px;
     border: none;
@@ -97,5 +98,10 @@
     font-family: inherit;
     font-weight: 700;
     background: $neutral-dark-gray-blue;
+  }
+
+  @media only screen and (min-width: $min-width) {
+    border-radius: 0 25px 25px 0;
+    height: 500px;
   }
 }
