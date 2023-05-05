@@ -15,7 +15,7 @@
   // List
   &-list {
     max-height: 40vh;
-    overflow-y: scroll;
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
     gap: 1em;
